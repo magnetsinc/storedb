@@ -1,0 +1,15 @@
+name: storedb
+id: 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/1e0b790f-2c67-409a-9b7c-3ea9ac1035df'
+description: Configuration and administrative files for the storedb.
+configVersion: 1
+ownerId: 'ari:cloud:teams::team/26861100-6053-4a00-8199-b29f24d7e5f4'
+fields:
+  lifecycle: Active
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/magnetsinc/storedb'
+relationships: {}
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
