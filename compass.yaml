@@ -4,7 +4,10 @@ description: Configuration and administrative files for the storedb.
 configVersion: 1
 ownerId: 'ari:cloud:teams::team/26861100-6053-4a00-8199-b29f24d7e5f4'
 fields: {}
-links: []
+links:
+  - name: Who is on-call for Magnetizers
+    type: ON_CALL
+    url: 'https://compass-magnets.app.opsgenie.com/settings/schedule/detail/0b2007f0-8133-4ef8-b4e5-541c7e80840f'
 relationships: {}
 
 # Learn more about formatting compass.yml:
