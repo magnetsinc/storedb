@@ -1,11 +1,42 @@
 name: storedb
 id: 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/1e0b790f-2c67-409a-9b7c-3ea9ac1035df'
-description: Configuration and administrative files for the storedb.
+description: Magnetic relational datastore.
+typeId: CLOUD_RESOURCE
 configVersion: 1
 ownerId: 'ari:cloud:teams::team/26861100-6053-4a00-8199-b29f24d7e5f4'
-fields: {}
-links: []
-relationships: {}
+fields:
+  tier: 1
+  lifecycle: Active
+links:
+  - name: 'Contact us here'
+    type: CHAT_CHANNEL
+    url: 'https://magnetsinc.slack.com/archives/C049E2AUHRC'
+  - name: Jira Project
+    type: PROJECT
+    url: 'https://magnetsinc.atlassian.net/browse/MAG'
+  - name: Architecture overview
+    type: DOCUMENT
+    url: 'https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview'
+  - name: Runbook
+    type: DOCUMENT
+    url: 'https://magnetsinc.atlassian.net/wiki/spaces/MAGNETIC/overview'
+  - name: Observability Dashboard
+    type: DASHBOARD
+    url: 'https://app.datadoghq.com/dashboard/v43-thf-yrv/dashboard'
+  #- name: Magnetic On-call
+  #  type: ON_CALL
+  #  url: 'FIXME'
+  #- name: Opsgenie service
+  #  type: OTHER_LINK
+  #  url: 'FIXME'
+labels:
+  - aws
+  - datastore
+  - mysql
+  - magnetic
+relationships:
+  DEPENDS_ON:
+    - ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/1d243600-59a0-4643-8e83-454c33ced54c
 
 # Learn more about formatting compass.yml:
 # https://go.atlassian.com/compass-yml-format
